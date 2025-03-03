@@ -1,0 +1,100 @@
+body{
+  background-color:#D3D3D3;
+}
+.box {
+  width: 50%;
+  padding: 15px;
+  margin-top: 20px;
+text-align: left;
+}  
+.verde{
+  background: #8AD0C0;
+  border: 5px solid #65988C;
+}
+.puntitos {
+      background: #E0E0E0;
+      border:5px dotted #848484;
+    }
+.amarillo {
+background:#FFFFB5;
+border: 5px solid#FFFF00;
+}
+.gris {
+
+  box-sizing: border-box;
+  background: #E0E0E0;
+  border: 5px double #848484
+}
+.rayas {
+  box-sizing: border-box;
+  background: #DFDAF2;
+  border: 5px dashed #A89BDB
+            }
+.tittle {
+  font-size: 2em;
+  color:black;
+  text-align: center;
+border-bottom:5px solid white;
+  width: 100%;
+}
+.blanca {
+  color: black;
+  background: white;
+  border: 5px solid black;
+  margin-left: 25%;
+}
+.naranja {
+    color: white;
+    background: #AA5A3A;
+      border: 5px solid #862600;
+      margin-left: 0;
+}
+.ocre {
+  color: white;
+  background: #AA7A3A;
+  border: 5px solid #864D00;
+  margin-left: 48%;
+}
+.azulmarino {
+  color: white;
+  background: #2A506D;
+  border: 5px dashed #864D00;
+  margin-left: 25%;
+}
+.letra1{font-size: 2em;
+  font-style: italic;
+text-decoration: dashed underline;
+  text-decoration-color: red
+}
+.letra2{
+  background-color: #FFFFFF;
+  color:red;
+}
+.letra3{
+  color:blue
+}
+.fecha{
+  color: white;
+  margin:0 auto;
+  background-color: #808080;
+  font-size: 2rem;
+}
+.articulo{
+  margin:0 auto;
+  text-align:justify;
+width: 40%;
+padding-bottom: 50px;
+border-bottom: 3px solid black;}
+.containerFlex{
+background-image:url(arcoiris.jpg);
+display:flex;
+flex-direction: row;
+width: 750px;
+height: 571px;
+}
+.textos{
+  color:black;
+  width: 33%;
+  padding-left: 15px;
+  margin-top: 30px;
+}

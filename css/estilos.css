@@ -1,0 +1,93 @@
+.body{
+  background-color: white;
+  color: black;
+  margin: auto;
+  text-align: justify;
+  width: 75%;
+  display: flex;
+}
+.izquierda{
+  border-right: 1px solid black;
+  display:block;
+  
+}
+.derecha{
+  display: block;
+  padding-left: 15px;
+  width: 40%;
+
+}
+.h1{
+  background-color: #BBBBBB;
+  color: black;
+  font-weight: bold;
+  font-size: 3rem;
+  
+}
+.h2{
+  background-color: #DDDDDD;
+  color: black;
+  font-size: 2rem;
+  text-align: right;
+  font-weight: bold;
+  border-bottom: 3px dashed #AAAAAA;
+}
+.cuerpo{
+  display: flex;
+  margin-top: 15px;
+  text-align: center;
+
+
+}
+.columnas{
+  margin-right: 15px;
+  display: block;
+  width: 10%;
+  border-top: 3px solid black;
+  border-left: 3px dashed #AAAAAA;
+  border-right: 3px dashed #AAAAAA;
+  border-bottom: 3px solid black;
+}
+.h3{
+    color: black;
+    text-align: center;
+    background-color: #EEEEEE;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 100%;
+
+}
+.anuncios{
+  border: 1px solid black;
+margin: 15px;
+}
+.ref{
+    color: white;
+      text-align: right;
+      background-color: #BBBBBB;
+      font-size: 1rem;
+}
+.textos{
+  margin: 0;
+  padding: 15px;
+}
+.container{
+  margin:auto;
+  margin-top: 20px;
+  display:flex;
+  width: 730px;
+  height: 490px;
+  background-image: url(/panteon.jpg);
+  justify-content: center;
+  gap: 60px;
+}
+.romanas{
+  /* margin:auto; */
+  margin-top: 200px;
+  width: 10%;
+  overflow:auto;
+  box-sizing: border-box;
+  height: 180px;
+
+
+}
