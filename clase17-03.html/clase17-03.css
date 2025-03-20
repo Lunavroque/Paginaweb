@@ -1,0 +1,13 @@
+input{
+  display: none;
+}
+label{
+  background: pink;
+  cursor: pointer;
+}
+.contenidoOculto{
+display: none;
+}
+input[type="checkbox"]:checked+label+.contenidoOculto{
+  display: block;
+}

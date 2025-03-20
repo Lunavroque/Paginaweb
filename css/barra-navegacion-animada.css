@@ -1,0 +1,19 @@
+.container{
+  width: 1000px;
+display: flex;
+}
+.menus{
+  display: block;
+margin-left: 30px;
+padding: 15px;
+background-color: lightgreen;
+border-radius: 25%;
+width: 250px;
+transition: 2s;
+position: relative;
+}
+.menus:hover{
+background-color: palevioletred;
+width: 300px;
+position: absolute;
+}

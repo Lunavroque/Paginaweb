@@ -1,0 +1,20 @@
+.container{
+  width: 700px;
+  height: 810px;
+  background-image: url(../fondo.png);
+  background-size: 100%;
+}
+.boddy{
+  width: 510px;
+  height: 180px;
+  border: 1px solid black;
+  background: url(../html-left.png) center left, url(../html-right.png)center right;
+  background-repeat: no-repeat;
+}
+.gradiente{
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  background:url(../tijeras.svg) right bottom,url(../mundo.svg),radial-gradient(ellipse at center, rgba(255, 0, 132, 0.82) 0%, rgba(255, 0, 132, 0.84) 11%, rgba(8, 178, 0, 0.91) 51%, rgba(0, 189, 206, 0.99) 97%, rgba(0, 189, 206, 1) 100%);
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,115 @@
+.div{
+border-width: 35px;
+border-style: solid;
+border-image: url(../border.png) 30 30 stretch;
+padding: 20px;
+}
+.cuadrado{
+  width: 300px;
+  height: 300px;
+  background-color: palevioletred;
+  transition: 3s;
+}
+
+.cuadrado:hover{
+  background-color: black;
+  transition: 0s;
+}
+p span{
+  transition: 2s
+}
+p:hover .h{
+color: aqua;
+font-size: 3rem
+;
+}
+p:hover .o{
+  color: green;
+  font-size: -0,5rem;
+}
+p:hover .l{
+color: blueviolet;
+}
+p:hover .a{
+color: brown;
+font-size: 5rem;
+}
+
+p .sombreado{
+  text-shadow: 
+  -50px 50px 1px blue, 
+  50px 50px 1px red, 
+  -50px -50px 1px yellow,
+  50px -50px 1px green;
+  transition: 2s;
+}
+p:hover .sombreado{
+    text-shadow: 
+    50px -50px 1px blue,
+    -50px -50px 1px red,
+    50px 50px 1px yellow,
+    -50px 50px 1px green;
+
+}
+p .sombreado1 {
+  text-shadow: -50px 50px 1px blue, 50px 50px 1px red, -50px -50px 1px yellow, 50px -50px 1px green;
+    transition: 2s;
+
+}
+p:hover .sombreado1 {
+  text-shadow: 0px 0px 0px red, 0px -0px 0px green,
+    -0px 0px 0px blue, -0px -0px 0px yellow;
+
+}
+.fondo{
+  display: flex;
+  width: 1000px;
+}
+.botones{
+width: 30px;
+padding: 15px;
+margin-right: 10px;
+border: 1px solid red;
+border-radius: 25%;
+color: white;
+background-image: url(https://pablomonteserin.com/wp-content/uploads/2024/02/indiana.png), linear-gradient(to bottom, green, red);
+box-shadow: 2px 2px 2px black;
+transition: 1s
+
+}
+p:hover .botones{
+  background-position: -60px -80px;
+}
+navegador p{
+width: 30px;
+  padding: 15px;
+  margin-right: 10px;
+  border: 1px solid red;
+  border-radius: 25%;
+  color: white;
+  background-image: url(https://pablomonteserin.com/wp-content/uploads/2024/02/indiana.png), linear-gradient(to bottom, green, red);
+  box-shadow: 2px 2px 2px black;
+  transition: 1s;
+  text-align: center;
+}
+navegador p:hover{
+    background-position: center center;
+
+}
+.cajita{
+width: 300px;
+height: 300px;  
+background-color: lightskyblue;
+border: 1px solid lightskyblue;
+color: black;
+transition: width 3s, height 3s, font-size 5s, color 1s;
+transition-timing-function: linear, ease-in;
+overflow: hidden;
+}
+
+.cajita:hover{
+  width: 600px;
+  height: 600px;
+  color: blue;
+  font-size: 10rem;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/formulario-complejo.css" />
+  </head>
+  <body>
+    <h1>Validacion de un formulario con HTML</h1>
+    <form action="">
+      <div class="mt-10">
+        <label for="Nombre">Nombre</label>
+        <input type="text" id="Nombre" required />
+      </div>
+      <div class="mt-10">
+        <label for="Edad">Edad</label>
+        <input type="text" id="Edad" required />
+      </div>
+      <div class="mt-10">
+        <label for="CodigoPostal">Codigo postal</label>
+        <input
+          title="debes introducir 5 dígitos numéricos"
+          pattern="^[0-9]{5}$"
+          id="CodigoPostal"
+          required
+        />
+      </div>
+      <div class="mt-10">
+        <label for="Email">Email</label>
+        <input type="text" id="Email" />
+      </div>
+      <div class="mt-10">
+        <label for="Date">Fecha de reserva</label>
+        <input type="date" id="Date" required />
+      </div>
+      <div class="mt-10">
+        <label for="Nota">Nota</label>
+        <input type="range" max="10" min="0" value="7" id="Nota" />
+      </div>
+      <button>Enviar</button>
+    </form>
+  </body>
+</html>

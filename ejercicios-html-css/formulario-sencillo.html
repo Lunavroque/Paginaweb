@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/formularios.css" />
+  </head>
+  <body>
+    <h1>Formulario sencillo</h1>
+    <form action="https://dummyjson.com/auth/login" method="post">
+      <div class="container">
+      <label for="Username">Usuario</label>
+      <input type="text" id="Usuario" required minlength="5"/>
+      <label for="password">Contraseña</label>
+      <input type="password" id="password" required/>
+      <label for="Comentarios">Comentarios</label>
+      <textarea id="Comentarios"></textarea>
+      <br>
+      <input type="radio" id="Genero1" name="genero">
+      <label for="hombre">Hombre</label>
+      <input type="radio" id="Genero2" name="genero">
+      <label for="mujer">Mujer</label>
+      <input type="radio" id="Genero3" name="genero">
+      <label for="No binario">No binario</label>
+      <label for="Aceptar">Aceptar los términos y condiciones</label>
+      <input type= "checkbox" name="" id="Aceptar">
+      <input type="submit" value="Enviar" />
+      <input type="reset" value="borrar" />
+      <!-- https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_radio-->
+    </form>
+    </div>
+  </body>
+</html>

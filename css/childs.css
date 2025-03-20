@@ -1,0 +1,35 @@
+table {
+  margin: 0 auto;
+  border: 1px solid salmon;
+  border-radius: 15px;
+  width: 300px;
+  text-align: center;
+}
+td {
+  border: 1px solid #fa8072;
+  border-radius: 15px;
+}
+tbody tr:nth-child(odd) {
+}
+tbody tr:nth-child(even) {
+  background-color: lightgray;
+}
+thead {
+  background-color: salmon;
+}
+th {
+  border-radius: 15px;
+}
+
+#container {
+  width: 600px;
+  height: 400px;
+  background-color: lightgray;
+}
+#container div:first-child {
+  width: 10px;
+  padding-left: 590px;
+  background-color: blue;
+}
+#container div:nth-child(2) {
+}

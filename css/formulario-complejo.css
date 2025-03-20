@@ -1,0 +1,41 @@
+label {
+  display: inline-block;
+  vertical-align: top;
+  width: 120px;
+}
+.mt-10{
+  margin-top: 10px;
+  display: block
+}
+button{
+  width: 150px;
+}
+input[required]{
+  border: 2px solid black;
+
+}
+input:valid{
+background-color: lightgreen;
+}
+input:invalid{
+  background-color: salmon;
+}
+button{
+background-color: lightgreen;
+text-align: center;
+margin: auto;
+border-radius: 10px;
+width: 100%;
+margin-top: 10px;
+padding: 5px;
+;
+}
+form{
+  margin: auto;
+  background-color: #BFE5FC;
+  max-width: 350px;
+  border: 1px dashed lightgray;
+  border-radius: 10px;
+  padding: 25px;
+
+}

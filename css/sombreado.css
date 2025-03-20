@@ -1,0 +1,12 @@
+.container{ 
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  box-shadow: 10px 50px 100px yellow, inset 10px 50px 100px green;
+  border-radius: 20%;
+  
+}
+p{
+text-shadow: 10px 10px 10px black;
+
+}

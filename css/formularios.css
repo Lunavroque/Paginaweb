@@ -1,0 +1,24 @@
+label{
+  display: flex;
+  vertical-align: top;
+  width: 120px;
+}
+
+.mt-10{
+  margin-top: 10px;
+}
+
+form{
+  width: 400px;
+  height: 400px;
+  border: 2px solid black;
+  text-align: center;
+  margin: auto;
+  padding: 60px;
+  border-radius: 15px;
+
+}
+textarea{
+  border: 1px solid red;
+  border-radius: 10px;
+}

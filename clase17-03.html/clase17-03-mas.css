@@ -1,0 +1,15 @@
+input[type=checkbox] +label{
+  background: url(/check_radio_sheet\ \(1\).png);
+  width: 19px;
+  height: 19px;
+cursor: pointer;
+display: inline-block
+
+}
+input[type=checkbox]{
+  display: none;
+}
+input[type=checkbox]:checked+label{
+  background: url(/check_radio_sheet\ \(1\).png) -19px;
+  
+}
